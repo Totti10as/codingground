@@ -22,3 +22,10 @@ CREATE TABLE Usersname(
   Address varchar(255),
   City varchar(255)
 );
+
+/* Insert values into a table*/
+INSERT INTO Usersname (FirstName, LastName, Address, City )  
+VALUES
+('Stanislav', 'Masarsky', 'Waizman', 'Holon'),
+('Lilach', 'Arviv', 'Waizman', 'Mazkeret Batya'),
+('Erez', 'Nardia', 'Homa', 'Yahud');
