@@ -14,18 +14,40 @@
 -- /* Display all the records from the table */
 -- SELECT * FROM NAMES;
 
-/* Create new Table*/
-CREATE TABLE Usersname(
-  PersonId INTEGER PRIMARY KEY AUTOINCREMENT,
-  FirstName varchar(255),
-  LastName varchar(255),
-  Address varchar(255),
-  City varchar(255)
-);
 
-/* Insert values into a table*/
-INSERT INTO Usersname (FirstName, LastName, Address, City )  
-VALUES
-('Stanislav', 'Masarsky', 'Waizman', 'Holon'),
-('Lilach', 'Arviv', 'Waizman', 'Mazkeret Batya'),
-('Erez', 'Nardia', 'Homa', 'Yahud');
+/* Create new Table*/
+-- CREATE TABLE Usersname(
+--   PersonId INTEGER PRIMARY KEY AUTOINCREMENT,
+--   FirstName varchar(255),
+--   LastName varchar(255),
+--   Address varchar(255),
+--   City varchar(255)
+-- );
+
+-- INSERT INTO Usersname (FirstName, LastName, Address, City )  
+-- VALUES
+-- ('Stanislav', 'Masarsky', 'Waizman', 'Holon'),
+-- ('Lilach', 'Arviv', 'Waizman', 'Mazkeret Batya'),
+-- ('Erez', 'Nardia', 'Homa', 'Yahud'),
+-- ('Erez', 'Nardia', 'Homa', 'Yahud'),
+-- ('Yuri', 'Roshko', 'Uziel', 'Rhovot');
+
+Select * from usersname; 
+
+--SELECT DISTINCT Firstname, LastName, Address, City  from Usersname;
+
+-- select FirstName, LastName, Address, City, count(*)
+--   from   Usersname
+--   group  by FirstName, LastName, Address, City; 
+
+
+-- select FirstName, LastName, Address, City, count(*)
+--   from   Usersname
+--   group  by FirstName, LastName, Address, City;
+ 
+
+
+
+
+
+
