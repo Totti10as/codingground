@@ -15,12 +15,10 @@
 -- SELECT * FROM NAMES;
 
 /* Create new Table*/
--- CREATE TABLE Usersname (
---   PersonId int NOT NULL PRIMARY KEY,
---   FirstName varchar(255),
---   LastName varchar(255),
---   Address varchar(255),
---   City varchar(255)
--- );
-
-INSERT INTO Usersname (Personid, FirstName, LastName, Address, City) VALUES (1, 'Stanislav', 'Masarsky', 'Waizman', 'Holon');
+CREATE TABLE Usersname(
+  PersonId INTEGER PRIMARY KEY AUTOINCREMENT,
+  FirstName varchar(255),
+  LastName varchar(255),
+  Address varchar(255),
+  City varchar(255)
+);
